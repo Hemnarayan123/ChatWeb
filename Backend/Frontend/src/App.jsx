@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 import { Navigate, Route, Routes } from "react-router-dom";
 function App() {
   const [authUser, setAuthUser] = useAuth();
-  console.log(authUser);
+  // console.log(authUser);
   return (
     <>
       <Routes>
